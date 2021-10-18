@@ -1,13 +1,125 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #000;
+  overflow: hidden;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  height: 7vh;
+  background-color: #1d1e22;
+  display: flex;
+  align-items: center;
+  padding: 0 1vw;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+.websiteTitle {
+  color: #fff;
+  font-size: 2rem;
+}
+
+p {
+  color: #fff;
+  margin-left: 0.7rem;
+  font-size: 0.8rem;
+  display: none;
+}
+
+button {
+  position: absolute;
+  top: 7px;
+  right: 1vw;
+  font-size: 0.8rem;
+  color: #000;
+  background-color: #fff;
+  padding: 0.5rem 0.7rem;
+  width: 4rem;
+  margin: 0 0.5rem;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button:nth-child(1) {
+  right: 5rem;
+}
+
+.editor__title-wrapper {
+  display: flex;
+  border: 1px solid;
+  color: #fff;
+}
+
+.editor-title {
+  cursor: pointer;
+  padding: 3px 8px;
+  border: 1px solid;
+}
+
+.editor {
+  position: absolute;
+  width: 100% !important;
+  background-color: #1d1e22;
+  color: #fff;
+  border: 1px solid #fff;
+  height: 88vh !important;
+}
+
+iFrame {
+  position: absolute;
+  width: 100% !important;
+  height: 88vh !important;
+  background-color: #fff;
+}
+
+footer {
+  color: #fff;
+  width: 100%;
+  border: 2px solid;
+}
+
+@media only screen and (min-width: 700px) {
+  .editor-title {
+    width: calc(100% / 3);
+    pointer-events: none;
+  }
+
+  .editor-title:nth-child(4) {
+    display: none;
+  }
+
+  .editor {
+    position: relative;
+    display: inline-block;
+    width: calc(100% / 3) !important;
+    height: 42vh !important;
+  }
+
+  iFrame {
+    display: block;
+  }
+
+  p {
+    display: block;
+  }
+
+  button {
+    width: 6rem;
+  }
+
+  button:nth-child(1) {
+    right: 8rem;
+  }
+}
+
+.ace-github .ace_gutter {
+  background-color: rgb(26, 24, 24);
 }
