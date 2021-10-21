@@ -16,8 +16,8 @@ header {
   display: flex;
   align-items: center;
   padding: 0 1vw;
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
+  border-left: 2px solid #ffffff50;
+  border-right: 2px solid #ffffff50;
 }
 
 .websiteTitle {
@@ -54,14 +54,15 @@ button:nth-child(1) {
 
 .editor__title-wrapper {
   display: flex;
-  border: 1px solid;
-  color: #fff;
+  color: #ffffff50;
 }
 
 .editor-title {
   cursor: pointer;
   padding: 3px 8px;
-  border: 1px solid;
+  border: 1px solid #ffffff50;
+  color: #fff;
+  border-radius: 3px;
 }
 
 .editor {
@@ -69,21 +70,16 @@ button:nth-child(1) {
   width: 100% !important;
   background-color: #1d1e22;
   color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff50;
   height: 88vh !important;
+  border-radius: 3px;
 }
 
 iFrame {
   position: absolute;
-  width: 100% !important;
-  height: 88vh !important;
-  background-color: #fff;
-}
-
-footer {
-  color: #fff;
   width: 100%;
-  border: 2px solid;
+  height: 88vh;
+  background-color: #fff;
 }
 
 @media only screen and (min-width: 700px) {
@@ -120,6 +116,11 @@ footer {
   }
 }
 
-.ace-github .ace_gutter {
-  background-color: rgb(26, 24, 24);
+.ace-monokai .ace_gutter {
+  background-color: #1d1e22;
+  color: #ffffff50;
+}
+
+.ace-monokai .ace_gutter-active-line {
+  background-color: #1d1e22;
 }
