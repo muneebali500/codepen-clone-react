@@ -101,6 +101,7 @@ iFrame {
 
   iFrame {
     display: block;
+    height: 45vh;
   }
 
   p {
