@@ -1,72 +1,52 @@
-# Getting Started with Create React App
+# Word Counter Clone - Fully Responsive
 
-https://codepen-clonez.netlify.app/
+## Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a clone project of [CodePen website](https://codepenclonez.netlify.app/). My purpose in creating this project is to showcase and improve my React skills using React hooks. 
 
-## Available Scripts
+[Link to Live Project](https://wordcounterclone.netlify.app/)
 
-In the project directory, you can run:
+![CodePen home page](/public/codepen-clone.jpg)
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Languages, Frameworks, Libraries & Programs
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [JSX](https://reactjs.org/docs/introducing-jsx.html) - build up layout and content of the application.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - for adding custom styling.
+- [React.js](https://reactjs.org/) - to add functionalities throughout the application.
+  - Hooks used:
+    - useState hook
+    - useEffect hook
+- [Visual Studio Code](https://code.visualstudio.com/) - the code editor being used to build the project.
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used heavily for debugging during development process.
+- [Git](https://git-scm.com/) - the Git feature in VS Code was used for version control and push to github.
+- [Github](https://github.com/) - Github is used to store project's code remotely.
+- [Netlify](https://www.netlify.com/) - for deploying the website.
 
-### `npm test`
+## Deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Development
 
-### `npm run build`
+The project was developed using VS Code editor and its integrated version control feature to commit gits, which are then pushed to GitHub in order to store the codes remotely.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### GitHub Pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The project was deployed to GitHub Pages following these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. On the navbar, hit the plus button, the drop-down option will appear. Select the "new repository" option
+2. On the "create a new repository" page, enter repository name in the "Repository name" box and hit the "Create repository" button at the end
+3. Create a new repository on the command line/VS code terminal in the root of the project folder using the following command lines.
+   - git init
+   - git add.
+   - git commit -m "write your comment here within quotes"
+   - git branch -M main 
+   - git remote add origin {enter URL of your repository here without brackets}
+   - git push -u origin main
 
-### `npm run eject`
+#### Forking the repository
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Log in to GitHub and navigate to this project's repository: [word-counter-clone](muneebali500/word-counter-clone-react)
+2. Just above the navigation menu of the repository (above the Settings button) locate the Fork button
+3. The original copy of the repository is now copied on your GitHub account which allows you to view and/or work on the codes without affecting the original work
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
