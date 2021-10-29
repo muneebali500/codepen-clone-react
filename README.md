@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This is a clone project of [CodePen website](https://codepenclonez.netlify.app/). My purpose in creating this project is to showcase and improve my React skills using React hooks. 
+This is a clone project of [CodePen website](https://codepen.io/pen/). My purpose in creating this project is to showcase and improve my React skills using React hooks. 
 
-[Link to Live Project](https://wordcounterclone.netlify.app/)
+[Link to Live Project](https://codepenclonez.netlify.app/)
 
 ![CodePen home page](/public/codepen-clone.png)
 
@@ -46,7 +46,7 @@ The project was deployed to GitHub Pages following these steps:
 
 #### Forking the repository
 
-1. Log in to GitHub and navigate to this project's repository: [word-counter-clone](muneebali500/word-counter-clone-react)
+1. Log in to GitHub and navigate to this project's repository: [codepen-clone](https://github.com/muneebali500/codepen-clone-react)
 2. Just above the navigation menu of the repository (above the Settings button) locate the Fork button
 3. The original copy of the repository is now copied on your GitHub account which allows you to view and/or work on the codes without affecting the original work
 
