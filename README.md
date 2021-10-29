@@ -46,7 +46,7 @@ The project was deployed to GitHub Pages following these steps:
 
 #### Forking the repository
 
-1. Log in to GitHub and navigate to this project's repository: [codepen-clone](https://github.com/muneebali500/codepen-clone-react)
+1. Log in to GitHub and navigate to this project's repository: [codepen-clone-react](https://github.com/muneebali500/codepen-clone-react)
 2. Just above the navigation menu of the repository (above the Settings button) locate the Fork button
 3. The original copy of the repository is now copied on your GitHub account which allows you to view and/or work on the codes without affecting the original work
 
