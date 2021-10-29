@@ -6,7 +6,7 @@ This is a clone project of [CodePen website](https://codepenclonez.netlify.app/)
 
 [Link to Live Project](https://wordcounterclone.netlify.app/)
 
-![CodePen home page](/public/codepen-clone.jpg)
+![CodePen home page](/public/codepen-clone.png)
 
 ## Technologies Used
 
