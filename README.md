@@ -1,4 +1,4 @@
-# Word Counter Clone - Fully Responsive
+# CodePen Clone - Fully Responsive
 
 ## Introduction
 
